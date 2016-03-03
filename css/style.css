@@ -58,7 +58,7 @@ header{
  background-color: #ef5350;
  padding: 24px 26px;
  margin-right: 0;
- display:none;
+ display:inline-block;
 }
 .sandwich ul{
   padding: 0;
@@ -80,8 +80,7 @@ header{
 .tel{
   font-size: 18px;
   font-weight: bold;
-  margin: 25px;
-  margin-right: 50px;
+ /* margin: 25px;*/
   display:none;
 
 }
@@ -91,9 +90,13 @@ header{
     display:inline-block;
   }
 }
-@media only screen and (min-width : 769px) {
+@media only screen and (min-width : 768px) {
   .sandwich{
-    display:none;
+    display:inline-block;
+    right:-19px;
+  }
+  .tel{
+    display: inline-block;
   }
 
 }
