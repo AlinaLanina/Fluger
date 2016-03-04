@@ -7,11 +7,6 @@ body{
 
 font-family: 'Open Sans', sans-serif;
 
-/*  min-width:1200px;
-  font-family: "Roboto","Arial", sans-serif;
-  font-size: 18px;
-  color: #f2f2f2;
-  line-height: 24px;*/
 }
 .btn{}
 .to-right{
@@ -27,11 +22,17 @@ font-family: 'Open Sans', sans-serif;
 header{
   background-color: #fff;
 }
+header.container{
+  position: relative;
+}
+.logo{
+  display: inline-block;
+}
 .logo img{
-  margin: 15px 20px;
+  margin: 14px 20px;
 }
 
-  .main-nav{
+.main-nav{
   display: none;
  }
 .main-nav ul{
@@ -39,7 +40,10 @@ header{
 }
 .main-nav li{
   display: inline-block;
-  margin: 28px 23px 23px;
+  margin: 28px 23px 0px;
+}
+.main-nav li:last-child{
+  margin-right: 0;
 }
 .main-nav a{
   text-decoration: none;
@@ -52,11 +56,11 @@ header{
 }
 .sandwich{
  position: absolute;
- top:-1px;
+ top:0px;
  right:0;
  width: 70px;
  background-color: #ef5350;
- padding: 24px 26px;
+ padding: 23px 26px;
  margin-right: 0;
  display:inline-block;
 }
@@ -80,7 +84,8 @@ header{
 .tel{
   font-size: 18px;
   font-weight: bold;
- /* margin: 25px;*/
+  margin-top: 22px;
+  margin-bottom: 15px;
   display:none;
 
 }
@@ -93,22 +98,45 @@ header{
 @media only screen and (min-width : 768px) {
   .sandwich{
     display:inline-block;
-    right:-19px;
+    right:0;
   }
   .tel{
     display: inline-block;
-  }
 
+    margin-left: 340px;
+    display: inline-block;
+  }
+  .logo img{
+    margin: 10px 20px;
+  }
 }
 @media only screen and (min-width : 1200px)  {
+  .container{
+    width: 1040px;
+  }
+ .logo{
+    margin-left: 80px;
+    margin-top: 20;
+    margin-bottom: 9px;
+  }
  .main-nav{
   display:inline-block;
+  margin-top: 0;
+  margin-bottom: 9px;
    }
+  .main-nav ul{
+    padding-left: 0;
+    margin-top: 10px;
+  }
  .sandwich{
   display:none;
  }
  .tel{
   display: inline-block;
+  margin-top: 12px;
+  margin-bottom: 9px;
+  margin-right: 0;
+  margin-left: 50px;
  }
 }
 /*promo*/
@@ -128,13 +156,17 @@ header{
 .promo-subtitle{
   display: block;
 }
-.btn-order{
+/*btns*/
+.btn{
   display: inline-block;
   margin: 70px 0 94px;
   padding: 16px 60px;
   border: 2px solid #ef5350;
   font-size: 18px;
   font-weight: bold;
+  color: #ef5350;
+}
+.btn-order{
   color: #fff;
 }
 
@@ -164,13 +196,128 @@ header{
   padding-bottom: 60px;
 }
 
+/*rooms*/
+.rooms{
+  text-align: center;
+}
+.rooms_item{
+  background-image: url(../img/rooms1.png);
+  -webkit-background-size: 100$;
+  background-size: 100$;
+  background-repeat: no-repeat;
+  text-align: center;
+  }
+.rooms h1{
+  padding-top: 130px;
+  padding-bottom: 75px;
+}
+.rooms_item h2{
+  padding-top: 120px;
+  padding-bottom: 35px;
+}
+.rooms_item span{
+  display: block;
+}
+.rooms_item span:last-child{
+   padding-bottom: 95px;
+
+}
+/*photo*/
+.photo{
+  text-align: center;
+}
+.photo_item{
+
+  text-align: center;
+  width: 100%;
+  font-size: 18px;
+}
+/*contacts*/
+.contacts{
+  text-align: center;
+}
+.contacts span{
+  display: block;
+}
+.contacts span:nth-child(3){
+
+}
+/*map*/
+.map{
+  margin-top: 50px;
+  opacity:0.7;
+}
+.map.btn{
+  margin-bottom: 115px;
+}
+/*footer*/
+
+.footer-nav{
+  background-color: #ef5350;;
+
+}
+.footer-nav span{
+  color: #fff;
+  display: block;
+}
+
+.footer-nav li{
+  list-style-type: none;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.footer-nav ul{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer-nav a{
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  text-decoration: none;
+}
+.footer-nav .adress{
+  padding-top: 50px;
+}
+.footer-nav .phone{
+  padding-top: 50px;
+}
+.copyright{
+    margin-bottom: 60px;
+}
 
 
+/*ROOMS*/
+.rooms_promo{
+  background-image: url(../img/rooms/bg1200_header_room.jpg);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.rooms_promo h1{
+  margin: 273px auto 35px;
+  color: #ef5350
+}
+.rooms_promo span{
+  display: block;
+  margin-bottom: 288px;
+  color: #000
+}
+.promo-title{
+  margin: 160px auto 27px;
+  width: 250px;
+  font-size: 26px;
+  text-transform:uppercase;
 
 
-
-
-
+}
+.promo-subtitle{
+  display: block;
+}
 
 
 
