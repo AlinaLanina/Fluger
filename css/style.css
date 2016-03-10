@@ -169,6 +169,9 @@ header.container{
 .btn-order{
   color: #fff;
 }
+.btn-rd{
+  color: #ef5350;
+}
 
 /*features*/
 .features{
@@ -232,6 +235,11 @@ header.container{
   width: 100%;
   font-size: 18px;
 }
+@media only screen and (max-width : 767px)  {
+  .photo{
+    display:none;
+  }
+}
 /*contacts*/
 .contacts{
   text-align: center;
@@ -252,9 +260,11 @@ header.container{
 }
 /*footer*/
 
+.footer-block{
+  background-color: #ef5350;
+}
 .footer-nav{
-  background-color: #ef5350;;
-
+  font-size: 18px;
 }
 .footer-nav span{
   color: #fff;
@@ -264,22 +274,24 @@ header.container{
 .footer-nav li{
   list-style-type: none;
   text-transform: uppercase;
-  font-size: 18px;
-}
+  }
 .footer-nav ul{
-  padding-top: 50px;
-  padding-bottom: 50px;
+  /*padding-top: 50px;
+  padding-bottom: 50px;*/
+  margin: 0;
+  padding: 0;
 }
 .footer-nav a{
   font-family: 'Open Sans', sans-serif;
   color: #fff;
+  font-size: 18px;
   text-decoration: none;
 }
 .footer-nav .adress{
-  padding-top: 50px;
+ /* padding-top: 50px;*/
 }
 .footer-nav .phone{
-  padding-top: 50px;
+  /*padding-top: 50px;*/
 }
 .copyright{
     margin-bottom: 60px;
@@ -292,12 +304,15 @@ header.container{
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
+  margin-bottom: 60px;
   color: #fff;
+  background-position: center;
   text-align: center;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 .rooms_promo h1{
   margin: 273px auto 35px;
   color: #ef5350
@@ -318,7 +333,16 @@ header.container{
 .promo-subtitle{
   display: block;
 }
-
+/*rooms_blocks*/
+.rooms_blocks
+  margin-top: 70px;
+}
+/*.room_blocks img{
+  float:right;
+}
+.room_blocks img:nth-child(2n){
+  float:left;
+}*/
 
 
 
