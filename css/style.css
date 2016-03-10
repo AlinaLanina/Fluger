@@ -262,41 +262,71 @@ header.container{
 
 .footer-block{
   background-color: #ef5350;
+  padding: 50px 0 60px;
+  /*padding-top: 50px;
+  padding-left: 75px;
+  padding-bottom: 60px;*/
+
+
 }
 .footer-nav{
   font-size: 18px;
-}
-.footer-nav span{
-  color: #fff;
-  display: block;
-}
+  margin-bottom: 50px;
+  margin-right: auto;
+  margin-left: auto;
 
+}
+.footer-nav ul{
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  }
 .footer-nav li{
   list-style-type: none;
   text-transform: uppercase;
+  margin-bottom: 15px;
   }
-.footer-nav ul{
-  /*padding-top: 50px;
-  padding-bottom: 50px;*/
-  margin: 0;
-  padding: 0;
-}
+ .nav-item-last{
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
 .footer-nav a{
   font-family: 'Open Sans', sans-serif;
   color: #fff;
   font-size: 18px;
+  font-weight: bold;
   text-decoration: none;
 }
-.footer-nav .adress{
- /* padding-top: 50px;*/
+.footer-contacts{
+  color: #fff;
 }
-.footer-nav .phone{
-  /*padding-top: 50px;*/
+.footer-contacts a{
+
+  display: block;
+  margin-bottom: 0;
+}
+.footer-contacts a{
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+}
+.footer-address{
+  margin-bottom: 15px;
+}
+.footer-phone{
+  margin-bottom: 18px;
 }
 .copyright{
     margin-bottom: 60px;
 }
+.copyright{
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 14px;
+  margin-top: 50px;
 
+}
 
 /*ROOMS*/
 .rooms_promo{
