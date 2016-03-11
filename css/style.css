@@ -275,11 +275,11 @@ header.container{
   margin-right: auto;
   margin-left: auto;
 
+
 }
 .footer-nav ul{
   padding: 0;
-  margin-left: auto;
-  margin-right: auto;
+  margin-bottom: 0;
   }
 .footer-nav li{
   list-style-type: none;
