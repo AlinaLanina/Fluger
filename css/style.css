@@ -397,12 +397,11 @@ header.container{
 .rooms_blocks
   margin-top: 70px;
 }
-/*.room_blocks img{
-  float:right;
+
+/*Photo_gallery*/
+.photo_gallery_subtitle{
+  display: block;
 }
-.room_blocks img:nth-child(2n){
-  float:left;
-}*/
 
 
 
