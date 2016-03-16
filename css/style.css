@@ -13,11 +13,6 @@ font-family: 'Open Sans', sans-serif;
   text-align: right;
   float:right;
 }
-/*@media only screen and (min-width : 320px) {}
-@media only screen and (min-width : 480px) {}
-@media only screen and (min-width : 768px) {}
-@media only screen and (min-width : 992px) {}
-@media only screen and (min-width : 1200px) {}*/
 
 header{
   background-color: #fff;
@@ -29,10 +24,13 @@ header.container{
   display: inline-block;
 }
 .logo img{
-  margin: 14px 20px;
+  /*margin: 14px 20px;*/
+  margin-top: 14px;
+  margin-bottom: 14px;
 }
 
 .main-nav{
+  float:right;
   display: none;
  }
 .main-nav ul{
@@ -42,9 +40,7 @@ header.container{
   display: inline-block;
   margin: 28px 23px 0px;
 }
-.main-nav li:last-child{
-  margin-right: 0;
-}
+
 .main-nav a{
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
@@ -87,9 +83,7 @@ header.container{
   margin-top: 22px;
   margin-bottom: 15px;
   display:none;
-
 }
-
 @media only screen and (min-width : 320px) {
   .sandwich{
     display:inline-block;
@@ -102,41 +96,53 @@ header.container{
   }
   .tel{
     display: inline-block;
-
-    margin-left: 340px;
+    float:right;
+    padding-right: 103px;
+  }
+ /* .main-nav{
     display: inline-block;
   }
-  .logo img{
-    margin: 10px 20px;
+  .main-nav-items{
+    display:none;
   }
+
+*/
+   /* margin-left: 340px;*/
+
+
+
 }
 @media only screen and (min-width : 1200px)  {
   .container{
     width: 1040px;
   }
  .logo{
-    margin-left: 80px;
     margin-top: 20;
     margin-bottom: 9px;
   }
  .main-nav{
   display:inline-block;
-  margin-top: 0;
+  transform:translateX(-270px);
+  /*margin-right: 270px;*/
+  /*margin-top: 0;
   margin-bottom: 9px;
+  padding-left: 0;
+  margin-top: 10px;*/
    }
   .main-nav ul{
-    padding-left: 0;
-    margin-top: 10px;
+
   }
  .sandwich{
   display:none;
  }
  .tel{
-  display: inline-block;
-  margin-top: 12px;
+  display:inline-block;
+  vertical-align: top;
+  /*margin-top: 12px;
   margin-bottom: 9px;
   margin-right: 0;
-  margin-left: 50px;
+  margin-left: 300px;*/
+
  }
 }
 /*promo*/
@@ -419,9 +425,11 @@ header.container{
   text-transform: uppercase;
 }
 .photo-promo-subtitle{
-  padding-bottom: 280px;
+  display: block;
   font-size: 18px;
   color: #212121;
+  padding-bottom: 280px;
+
 
 }
 .photo_gallery{
