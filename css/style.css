@@ -375,7 +375,7 @@ header.container{
 
 .rooms_promo h1{
   margin: 273px auto 35px;
-  color: #ef5350
+  color: #ef5350;
 }
 .rooms_promo span{
   display: block;
@@ -394,15 +394,68 @@ header.container{
   display: block;
 }
 /*rooms_blocks*/
-.rooms_blocks
+.rooms_blocks{
   margin-top: 70px;
 }
 
+
 /*Photo_gallery*/
+.photo-promo{
+  background-image: url(../img/photo/bg-promo-photo.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+}
+.photo-promo h1{
+  padding-top: 273px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 36px;
+  color: #ef5350;
+  text-transform: uppercase;
+}
+.photo-promo-subtitle{
+  padding-bottom: 280px;
+  font-size: 18px;
+  color: #212121;
+
+}
+.photo_gallery{
+
+  width: 940px;
+  margin-right: auto;
+  margin-left: auto;
+
+
+}
+.photo_gallery_title{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  color: #ef5350;
+  text-transform: uppercase;
+
+}
 .photo_gallery_subtitle{
   display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color:#607d8b;
+  margin-bottom: 20px;
+  margin-top: 25px;
 }
+.gallery-hall-1{
+  width: 100%;
+}
+.gallery-hall-2{
+  width: 100%;
+  margin-top: 6px;
 
+}
 
 
 
