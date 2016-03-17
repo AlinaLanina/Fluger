@@ -26,11 +26,11 @@ header.container{
 .logo img{
   /*margin: 14px 20px;*/
   margin-top: 14px;
-  margin-bottom: 14px;
+  margin-bottom: 13px;
 }
 
 .main-nav{
-  float:right;
+ /* float:right;*/
   display: none;
  }
 .main-nav ul{
@@ -98,19 +98,9 @@ header.container{
     display: inline-block;
     float:right;
     padding-right: 103px;
+    margin-top: 22px;
+    margin-bottom: 13px;
   }
- /* .main-nav{
-    display: inline-block;
-  }
-  .main-nav-items{
-    display:none;
-  }
-
-*/
-   /* margin-left: 340px;*/
-
-
-
 }
 @media only screen and (min-width : 1200px)  {
   .container{
@@ -123,13 +113,7 @@ header.container{
   }
  .main-nav{
   display:inline-block;
-  transform:translateX(-270px);
-  /*margin-right: 270px;*/
-  /*margin-top: 0;
-  margin-bottom: 9px;
-  padding-left: 0;
-  margin-top: 10px;*/
-   }
+  }
   .main-nav ul{
 
   }
@@ -139,16 +123,15 @@ header.container{
  .tel{
   display:inline-block;
   vertical-align: top;
-  /*margin-top: 12px;
-  margin-bottom: 9px;
-  margin-right: 0;
-  margin-left: 300px;*/
-
+  margin-top: 27px;
  }
 }
 /*promo*/
 .promo{
-  background-color: #35444e;
+  background-image: url(../img/bg-main-promo.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
   color: #fff;
   text-align: center;
 }
@@ -157,8 +140,6 @@ header.container{
   width: 250px;
   font-size: 26px;
   text-transform:uppercase;
-
-
 }
 .promo-subtitle{
   display: block;
@@ -211,12 +192,35 @@ header.container{
   text-align: center;
 }
 .rooms_item{
-  background-image: url(../img/rooms1.png);
-  -webkit-background-size: 100$;
-  background-size: 100$;
+  -webkit-background-size: 100%;
+  background-size: 100%;
   background-repeat: no-repeat;
   text-align: center;
+  height: 460px;
+  width: 460px;
   }
+  .rooms_item_1{
+    position: relative;
+  }
+  .room_price-1{
+    position: absolute;
+    font-size: 18px;
+    color: #000;
+    top: center;
+    left:center;
+  }
+/*.rooms_item_1{
+  background-image: url(../img/main-rooms_1.jpg);
+}
+.rooms_item_2{
+  background-image: url(../img/main-rooms_2.jpg);
+}*/
+/*.rooms_item_3{
+  background-image: url(../img/main-rooms_3.jpg);
+}
+.rooms_item_4{
+  background-image: url(../img/main-rooms_4.jpg);
+}*/
 .rooms h1{
   padding-top: 130px;
   padding-bottom: 75px;
