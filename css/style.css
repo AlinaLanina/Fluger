@@ -192,8 +192,8 @@ header.container{
   text-align: center;
 }
 .rooms_item{
-  -webkit-background-size: 100%;
-  background-size: 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
   height: 460px;
