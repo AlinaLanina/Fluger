@@ -200,8 +200,14 @@ header.container{
   width: 460px;
   }
   .rooms_item_1{
+  background-image: url(../img/main-rooms_1.jpg);
+}
+  .rooms_item_2{
+    background-image: url(../img/main-rooms_2.jpg);
+}
+/*  .rooms_item_1{
     position: relative;
-  }
+  }*/
   .room_price-1{
     position: absolute;
     font-size: 18px;
@@ -209,12 +215,7 @@ header.container{
     top: center;
     left:center;
   }
-/*.rooms_item_1{
-  background-image: url(../img/main-rooms_1.jpg);
-}
-.rooms_item_2{
-  background-image: url(../img/main-rooms_2.jpg);
-}*/
+
 /*.rooms_item_3{
   background-image: url(../img/main-rooms_3.jpg);
 }
